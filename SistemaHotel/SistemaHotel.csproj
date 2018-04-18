@@ -200,6 +200,7 @@
     <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\FacilidadesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReservaController.cs" />
     <Compile Include="Controllers\SobreNosotrosController.cs" />
     <Compile Include="Controllers\TarifasController.cs" />
     <Compile Include="Global.asax.cs">
@@ -283,6 +284,7 @@
     <Content Include="Views\SobreNosotros\SobreNosotros.cshtml" />
     <Content Include="Views\Tarifas\Tarifas.cshtml" />
     <Content Include="Views\Contacto\Contacto.cshtml" />
+    <Content Include="Views\Reserva\Reserva.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
