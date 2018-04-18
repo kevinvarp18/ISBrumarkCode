@@ -1,0 +1,76 @@
+header {
+    background: #18b7af;
+    color: #fff;
+}
+
+body {
+    background: #212121 url(../img/fondo.jpg);
+}
+
+.main {
+    background: #f2f2f2;
+}
+
+.color1 {
+    background: #34495e;
+    color: #fff;
+}
+
+aside {
+    background: #e24636;
+    color: #fff;
+}
+
+footer {
+    background: #18b7af;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Century gothic';
+    color: #fff;
+}
+
+a:hover {
+    color: #FFC000;
+}
+
+#map {
+    width: 500px;
+    height: 500px;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    margin-left: 18%;
+}
+
+
+.images-container {
+  width: 90%;
+  text-align: center;
+  margin: 60px auto 60px;
+}
+.container-enlarge {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    margin: 15px;
+}
+.container-enlarge > img {
+    height: auto;
+    max-width: 100%;
+    width: 150px;
+    border-radius: 5px;
+}
+.container-enlarge span {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+    border-radius: 5px;
+}
+.container-enlarge:hover span {
+    top: -220px;
+    left: -75px;
+    width: 300px;
+    border-radius: 5px;
+}

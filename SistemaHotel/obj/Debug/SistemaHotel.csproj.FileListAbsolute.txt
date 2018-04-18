@@ -1,0 +1,328 @@
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\ApplicationInsights.config
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\csc.exe
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\vbc.exe
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll.config
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.pdb
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Owin.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\WebGrease.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.pdb
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.csprojResolveAssemblyReference.cache
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.dll
+C:\Users\Kevin Vargas\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.pdb
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\ApplicationInsights.config
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\csc.exe
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\vbc.exe
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll.config
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.pdb
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Owin.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\WebGrease.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.pdb
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.dll
+C:\Users\Dylan\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.pdb
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\ApplicationInsights.config
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\csc.exe
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\vbc.exe
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll.config
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.pdb
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Owin.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\WebGrease.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.pdb
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.csprojResolveAssemblyReference.cache
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.dll
+C:\Users\mcalvo96\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.pdb
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\ApplicationInsights.config
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\csc.exe
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\vbc.exe
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll.config
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\SistemaHotel.pdb
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Owin.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\WebGrease.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.Web.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.ApplicationInsights.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Helpers.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Mvc.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Optimization.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.Razor.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Deployment.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\System.Web.WebPages.Razor.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Antlr3.Runtime.pdb
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Newtonsoft.Json.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\EntityFramework.SqlServer.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.csprojResolveAssemblyReference.cache
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.dll
+C:\Users\santi\Source\Repos\BrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.pdb
