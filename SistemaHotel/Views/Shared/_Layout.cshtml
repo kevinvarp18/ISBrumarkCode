@@ -22,55 +22,44 @@
                     <h1 class="font-weight-light"><br>SunSet <small class="font-italic"> Hotel</small> </h1>
                 </section>
             </section>
+
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="#"><img src="img/home.png" alt="Logo home" style="width:40px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                            @Html.ActionLink("Inicio", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                       
+                            @Html.ActionLink("Sobre Nosotros", "SobreNosotros", "SobreNosotros", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+         
+                     
+                            @Html.ActionLink("Facilidades", "Facilidades", "Facilidades", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+               
+                    
+                            @Html.ActionLink("¿Cómo llegar?", "ComoLlegar", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                  
+              
+                            @Html.ActionLink("Tarifas", "Tarifas", "Tarifas", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                   
+                     
+                            @Html.ActionLink("Reservas en Línea", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+      
+                 
+                            @Html.ActionLink("Contáctenos", "Contacto", "Contacto", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                    </div>
+                </div>
+            </nav>
         </div>
 
-        @*@<div class="container">
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                  <a class="navbar-brand" href="#"><img src="img/home.png" alt="Logo home" style="width:40px;"></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      @Html.ActionLink("Inicio", "Index", "Home", new { @class = "nav-item nav-link active" })
-                      @Html.ActionLink("Sobre Nosotros", "Example", "Home", new { @class = "nav-link" })
-                      @Html.ActionLink("Facilidades", "Index", "Home", new { @class = "nav-link" })
-                      @Html.ActionLink("¿Como llegar?", "ComoLlegar", "Home", new { @class = "nav-link" })
-                      @Html.ActionLink("Reservas en Línea", "Index", "Home", new { @class = "nav-link" })
-                      @Html.ActionLink("Contactenos", "Index", "Home", new { @class = "nav-link" })
-                    </div>
-                  </div>
-                </nav>
-            </div>*@
     </header>
 
     <div class="container">
         <section class="main row">
             <aside class="col-xs-12 col-sm-4 col-md-3">
                 <br>
-                <ul class="nav flex-column  nav-justified">
-                    <li class="nav-item">
-                        @Html.ActionLink("Inicio", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
-                    </li>
-                    <li class="nav-item">
-                        @Html.ActionLink("Sobre Nosotros", "SobreNosotros", "SobreNosotros", routeValues: null, htmlAttributes: new { @class = "nav-link" })
-                    </li>
-                    <li class="nav-item">
-                        @Html.ActionLink("Facilidades", "Facilidades", "Facilidades", routeValues : null, htmlAttributes: new { @class = "nav-link" })
-                    </li>
-                    <li class="nav-item">
-                        @Html.ActionLink("¿Cómo llegar?", "ComoLlegar", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
-                    </li>
-                    <li class="nav-item">
-                        @Html.ActionLink("Tarifas", "Tarifas", "Tarifas", routeValues: null, htmlAttributes: new { @class = "nav-link" })
-                    </li>
-                    <li class="nav-item">
-                        @Html.ActionLink("Reservas en Línea", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
-                    </li>
-                    <li class="nav-item">
-                        @Html.ActionLink("Contáctenos", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "nav-link" })
-                    </li>
-                </ul>
                 <div id="demo" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ul class="carousel-indicators">
