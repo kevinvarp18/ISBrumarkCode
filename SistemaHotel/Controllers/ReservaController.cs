@@ -14,6 +14,11 @@ namespace SistemaHotel.Controllers {
         public ActionResult HabitacionDisponible() {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult HabitacionDisponible(DateTime fechaLlegada, DateTime fechaSalida, int idTipoHabitacion) {
+            return View();
+        }
         
         // GET: Reserva
         [HttpGet]
