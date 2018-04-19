@@ -10,6 +10,11 @@ using System.Web.Mvc;
 namespace SistemaHotel.Controllers { 
     public class ReservaController : Controller {
         String connectionString = WebConfigurationManager.ConnectionStrings["Sunset_Hotel"].ToString();
+
+        public ActionResult HabitacionDisponible() {
+            return View();
+        }
+        
         // GET: Reserva
         [HttpGet]
         public ActionResult Reserva(int idHabitacion) {
