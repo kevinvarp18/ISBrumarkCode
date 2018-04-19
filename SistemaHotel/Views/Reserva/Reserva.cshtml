@@ -14,9 +14,9 @@
                         <img class="rounded img-fluid" alt="Piscina" src="~/img/7.jpeg" style="width:250px;">
                     </div>
                     <div class="col-8 col-sm-8">
-                        <h4 class="font-italic text-center">NombreHabitacion</h4>
+                        <h4 class="font-italic text-center">Habitacion numero : @ViewData["numero"]</h4>
                         <p class="font-weight-light text-justify">
-                            Descripcion.
+                           @ViewData["descripcion"]
                         </p>
                     </div>
                 </div>
@@ -29,9 +29,9 @@
             <div class="col-sm-12">
                 <div class="row">
                     <div class="col-8 col-sm-8">
-                        <form action="ReservaController/RealizarReserva"  method="post">
+                        <form action="Reserva/Reserva"  method="post">
                             <div class="form-group">
-                                <label for="monto">Monto de su reserva:</label>
+                                <label for="monto">Monto de su reserva: $@ViewData["tarifa"]</label>
                             </div>
                             <div class="form-group">
                                 <label for="nombre">Nombre:</label>
@@ -51,6 +51,7 @@
                             </div>
                             <button type="submit" class="btn btn-success">Aceptar</button>
                             <button type="submit" class="btn btn-danger">Cancelar</button>
+                            <h4>@ViewBag.Message</h4>
                         </form>
                     </div>
                 </div>

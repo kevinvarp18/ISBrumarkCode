@@ -27,12 +27,48 @@ namespace SistemaHotel.Models
             cmdInsertar.Parameters.Add(new SqlParameter("@apellidos", apellidoReserva));
             cmdInsertar.Parameters.Add(new SqlParameter("@correo", correoReserva));
             cmdInsertar.Parameters.Add(new SqlParameter("@tarjeta", tarjetaReserva));
-            //cmdInsertar.Parameters.Add(new SqlParameter("@encargado ", estudiante.Encargado));
+            
             cmdInsertar.Connection.Open();
-            cmdInsertar.ExecuteNonQuery();
+            bool res = Convert.ToBoolean(cmdInsertar.ExecuteNonQuery());
             cmdInsertar.Connection.Close();
 
-            return true;
+            return res;
         }
+
+        public List<string> obtenerDatosHabitacion(int idHabitacion)
+        {
+            SqlConnection connection = new SqlConnection(this.connString);
+
+            String sqlSelect = "sp_Obtener_Datos_Habitacion";
+
+            SqlDataAdapter sqlDataAdapterClient = new SqlDataAdapter();
+
+            sqlDataAdapterClient.SelectCommand = new SqlCommand(sqlSelect, connection);
+            sqlDataAdapterClient.SelectCommand.CommandType = System.Data.CommandType.StoredProcedure;
+            sqlDataAdapterClient.SelectCommand.Parameters.Add(new SqlParameter("@id", idHabitacion));
+
+            DataSet dataSetPersonas = new DataSet();
+            sqlDataAdapterClient.Fill(dataSetPersonas, "TSH_Habitacion");
+            sqlDataAdapterClient.SelectCommand.Connection.Close();
+
+            DataRowCollection dataRow = dataSetPersonas.Tables["TSH_Habitacion"].Rows;
+
+            List<string> habitacion = new List<string>();
+
+            foreach (DataRow currentRow in dataRow)
+            {
+                string numeroHab = currentRow["TN_Numero_Habitacion_TSH_Habitacion"].ToString();
+                string descripcion = currentRow["TC_Descripcion_TSH_Habitacion"].ToString(); ;
+                string imagen = currentRow["TI_Imagen_TSH_Habitacion"].ToString(); ;
+                string tarifa = currentRow["TN_Tarifa_TSH_Tipo_Habitacion"].ToString(); ;                
+
+                habitacion.Add(numeroHab);               
+                habitacion.Add(descripcion);
+                habitacion.Add(imagen);
+                habitacion.Add(tarifa);                
+
+            }//foreach
+            return habitacion;
+        }//obternerEstudiantes
     }
 }
