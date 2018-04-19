@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "HabitacionDisponible";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<article class="col-xs-12 col-sm-8 col-md-9">
+    <div class="container">
+        <br />
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="font-italic text-center">Reserva En L&iacute;nea</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-4 col-sm-4">
+                        <img class="rounded img-fluid" alt="Piscina" src="~/img/7.jpeg" style="width:250px;">
+                    </div>
+                    <div class="col-8 col-sm-8">
+                        <h4 class="font-italic text-center">Piscina</h4>
+                        <p class="font-weight-light text-justify">
+                            En SunSet encontra una gran piscina la cual cuenta con diferentes niveles de profundidad para que tanto niños como adultos puedan relajarse y disfrutar del gran ambiente que posee SunSent.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-8 col-sm-8">
+                        <form action="Reserva/Reserva" method="post">
+                            <div class="form-group">
+                                <label for="monto">Monto de su reserva: $@ViewData["tarifa"]</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" class="form-control" name="nombreReserva" id="nombreReserva" />
+                            </div>
+                            <div class="form-group">
+                                <label for="apellido">Apellidos:</label>
+                                <input type="text" class="form-control" name="apellidoReserva" id="apellidoReserva" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="text" class="form-control" name="correoReserva" id="correoReserva" />
+                            </div>
+                            <div class="form-group">
+                                <label for="tarjeta">Tarjeta de credito:</label>
+                                <input type="text" class="form-control" name="tarjetaReserva" id="tarjetaReserva" />
+                            </div>
+                            <button type="submit" class="btn btn-success">Aceptar</button>
+                            <button type="submit" class="btn btn-danger">Cancelar</button>
+                            <h4>@ViewBag.Message</h4>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
