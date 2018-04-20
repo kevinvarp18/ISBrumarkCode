@@ -651,6 +651,5 @@ C:\Users\Kevin Vargas\Source\Repos\ISBrumarkCode\SistemaHotel\bin\Microsoft.Owin
 C:\Users\Kevin Vargas\Source\Repos\ISBrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Kevin Vargas\Source\Repos\ISBrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Kevin Vargas\Source\Repos\ISBrumarkCode\SistemaHotel\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Kevin Vargas\Source\Repos\ISBrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.csprojResolveAssemblyReference.cache
 C:\Users\Kevin Vargas\Source\Repos\ISBrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.dll
 C:\Users\Kevin Vargas\Source\Repos\ISBrumarkCode\SistemaHotel\obj\Debug\SistemaHotel.pdb
