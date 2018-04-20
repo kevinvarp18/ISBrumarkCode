@@ -65,6 +65,3 @@ namespace SistemaHotel.Domain {
         }//Método accesor CantidadPersonas.
     }//Fin de la clase.
 }//Fin del namespace.
-
-    }
-}
