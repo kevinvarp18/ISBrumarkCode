@@ -10,7 +10,6 @@ namespace SistemaHotel.Domain {
         private int tipoHabitacion;
         private int estado;
         private int borrado;
-        private float tarifa;
         private string descripcion;
         private string urlImagen;
 
@@ -20,18 +19,16 @@ namespace SistemaHotel.Domain {
             this.tipoHabitacion = 0;
             this.estado = 0;
             this.borrado = 0;
-            this.tarifa = 0;
             this.descripcion = "";
             this.urlImagen = "";
         }//Fin del constructor.
 
-        public Habitacion(int id, int numeroHabitacion, int tipoHabitacion, int estado, int borrado, float tarifa, string descripcion, string urlImagen) {
+        public Habitacion(int id, int numeroHabitacion, int tipoHabitacion, int estado, int borrado, string descripcion, string urlImagen) {
             this.id = id;
             this.numeroHabitacion = numeroHabitacion;
             this.tipoHabitacion = tipoHabitacion;
             this.estado = estado;
             this.borrado = borrado;
-            this.tarifa = tarifa;
             this.descripcion = descripcion;
             this.urlImagen = urlImagen;
         }//Fin del constructor sobrecargado.
@@ -85,16 +82,6 @@ namespace SistemaHotel.Domain {
                 this.borrado = value;
             }//Set
         }//Método accesor Estado.
-
-        public float Tarifa {
-            get {
-                return this.tarifa;
-            }//Get.
-
-            set {
-                this.tarifa = value;
-            }//Set.
-        }//Metodo accesor Tarifa.
 
         public string Descripcion {
             get {
