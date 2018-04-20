@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "ResultadoReserva";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<article class="col-xs-12 col-sm-8 col-md-9">
+    <div class="container">
+        <h2 class="font-italic text-center">Reporte de Reserva</h2>
+        <p>¡En hora buena! Su reserva se ha realizado con éxito. A continuación, se le muestra la información
+        de su reserva.</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr class="table-info">
+                    <th>Cliente</th>
+                    <th>Correo Electrónico</th>
+                    <th>Número de Reserva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-danger">
+                    <td>Warning</td>
+                    <td>Refs</td>
+                    <td>bo@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            Para SunSet Hotel es un gusto tenerlos en nuestras instalaciones, los esperamos.
+        </p>
+        <button type="submit" class="btn btn-success">Generar recibo</button>
+    </div>
+</article>
