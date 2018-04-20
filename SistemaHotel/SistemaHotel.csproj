@@ -287,6 +287,7 @@
     <Content Include="Views\Contacto\Contacto.cshtml" />
     <Content Include="Views\Reserva\Reserva.cshtml" />
     <Content Include="Views\Reserva\HabitacionDisponible.cshtml" />
+    <Content Include="Views\ResultadoReserva.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
