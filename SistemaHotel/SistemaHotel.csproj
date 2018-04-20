@@ -203,6 +203,8 @@
     <Compile Include="Controllers\ReservaController.cs" />
     <Compile Include="Controllers\SobreNosotrosController.cs" />
     <Compile Include="Controllers\TarifasController.cs" />
+    <Compile Include="Domain\Habitacion.cs" />
+    <Compile Include="Domain\TipoHabitacion.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

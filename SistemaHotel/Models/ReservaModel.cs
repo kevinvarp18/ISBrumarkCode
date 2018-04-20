@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
 using System.Data;
-
+using SistemaHotel.Domain;
 
 namespace SistemaHotel.Models {
     public class ReservaModel {
@@ -24,13 +24,11 @@ namespace SistemaHotel.Models {
             cmdInsertar.Parameters.Add(new SqlParameter("@correo", correoReserva));
             cmdInsertar.Parameters.Add(new SqlParameter("@tarjeta", tarjetaReserva));
             cmdInsertar.Parameters.Add(new SqlParameter("@numero", numero));                    
-
             cmdInsertar.Connection.Open();
             bool res = Convert.ToBoolean(cmdInsertar.ExecuteNonQuery());
             cmdInsertar.Connection.Close();
-
             return res;
-        }
+        }//Fin de la funcion RealizarReserva.
 
         public List<string> obtenerDatosHabitacion(int idHabitacion) {
             SqlConnection connection = new SqlConnection(this.connString);
@@ -58,8 +56,34 @@ namespace SistemaHotel.Models {
                 habitacion.Add(imagen);
                 habitacion.Add(tarifa);                
 
-            }//foreach
+            }//Fin del foreach
             return habitacion;
-        }//obternerEstudiantes
-    }
-}
+        }//Fin de la funcion obtenerDatosHabitacion.
+
+        public List<TipoHabitacion> SP_ObtenerTipoHabitaciones() {
+            SqlConnection connection = new SqlConnection(this.connString);
+            String sqlSelect = "SP_ObtenerTipoHabitaciones";
+            SqlDataAdapter sqlDataAdapterClient = new SqlDataAdapter();
+            sqlDataAdapterClient.SelectCommand = new SqlCommand(sqlSelect, connection);
+            sqlDataAdapterClient.SelectCommand.CommandType = System.Data.CommandType.StoredProcedure;
+
+            DataSet dataSetPersonas = new DataSet();
+            sqlDataAdapterClient.Fill(dataSetPersonas, "TSH_Tipo_Habitacion");
+            sqlDataAdapterClient.SelectCommand.Connection.Close();
+
+            DataRowCollection dataRow = dataSetPersonas.Tables["TSH_Tipo_Habitacion"].Rows;
+            List<TipoHabitacion> tiposHabitaciones = new List<TipoHabitacion>();
+
+            foreach (DataRow currentRow in dataRow) {
+                TipoHabitacion tipoTemp = new TipoHabitacion();
+                tipoTemp.Id = int.Parse(currentRow["TN_Numero_Habitacion_TSH_Habitacion"].ToString());
+                tipoTemp.Descripcion = currentRow["TC_Descripcion_TSH_Habitacion"].ToString(); ;
+                tipoTemp.Tarifa = float.Parse(currentRow["TI_Imagen_TSH_Habitacion"].ToString()); ;
+                tipoTemp.CantidadPersonas = int.Parse(currentRow["TN_Tarifa_TSH_Tipo_Habitacion"].ToString()); ;
+                tiposHabitaciones.Add(tipoTemp);
+            }//Fin del foreach
+            return tiposHabitaciones;
+        }//Fin de la funcion obtenerDatosHabitacion.
+
+    }//Fin de la clase ReservaModel.
+}//Fin del namespace.
