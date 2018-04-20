@@ -203,8 +203,6 @@
     <Compile Include="Controllers\ReservaController.cs" />
     <Compile Include="Controllers\SobreNosotrosController.cs" />
     <Compile Include="Controllers\TarifasController.cs" />
-    <Compile Include="Domain\Habitacion.cs" />
-    <Compile Include="Domain\TipoHabitacion.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -289,7 +287,7 @@
     <Content Include="Views\Contacto\Contacto.cshtml" />
     <Content Include="Views\Reserva\Reserva.cshtml" />
     <Content Include="Views\Reserva\HabitacionDisponible.cshtml" />
-    <Content Include="Views\ResultadoReserva.cshtml" />
+    <Content Include="Views\Reserva\ResultadoReserva.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
