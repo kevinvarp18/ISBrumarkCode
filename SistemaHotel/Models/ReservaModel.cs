@@ -14,7 +14,7 @@ namespace SistemaHotel.Models {
             this.connString = connString;
         }//Fin del constructor.
 
-        public bool RealizarReserva(string nombreReserva, string apellidoReserva, string correoReserva, string tarjetaReserva) {
+        public bool RealizarReserva(string nombreReserva, string apellidoReserva, string correoReserva, string tarjetaReserva,int numero) {
             SqlConnection connection = new SqlConnection(this.connString);
             String sqlStoredProcedure = "sp_realizarReserva";
             SqlCommand cmdInsertar = new SqlCommand(sqlStoredProcedure, connection);
@@ -23,7 +23,8 @@ namespace SistemaHotel.Models {
             cmdInsertar.Parameters.Add(new SqlParameter("@apellidos", apellidoReserva));
             cmdInsertar.Parameters.Add(new SqlParameter("@correo", correoReserva));
             cmdInsertar.Parameters.Add(new SqlParameter("@tarjeta", tarjetaReserva));
-            
+            cmdInsertar.Parameters.Add(new SqlParameter("@numero", numero));                    
+
             cmdInsertar.Connection.Open();
             bool res = Convert.ToBoolean(cmdInsertar.ExecuteNonQuery());
             cmdInsertar.Connection.Close();
