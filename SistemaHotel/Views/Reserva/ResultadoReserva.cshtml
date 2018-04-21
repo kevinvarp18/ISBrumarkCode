@@ -8,7 +8,8 @@
     <div class="container">
         <h2 class="font-italic text-center">Reporte de Reserva</h2>
         @{
-            if (ViewBag["Resultado"]) {
+            if (ViewBag["Resultado"])
+            {
                 <p>
                     ¡En hora buena! Su reserva se ha realizado con éxito. A continuación, se le muestra la información
                     de su reserva.
@@ -25,18 +26,23 @@
                         <tr class="table-danger">
                             <td>@ViewBag["Cliente"]</td>
                             <td>@ViewBag["Correo"]</td>
-                            <td>@ViewBag["Reserva"]</td>
+                            <td>@ViewBag["NumeroReserva"]</td>
                         </tr>
                     </tbody>
                 </table>
                 <p>
                     Para SunSet Hotel es un gusto tenerlos en nuestras instalaciones, los esperamos.
                 </p>
-            } else {
-
+                @Html.ActionLink("Aceptar", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-success" })
             }
-        }}
+            else
+            {
+                <p>
+                    ¡Lo sentimos, esta habitación no se encuentra disponible!
+                </p>
+                @Html.ActionLink("Aceptar", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-danger" })
+            }
+        }
         
-        <button type="submit" class="btn btn-success">Aceptar</button>
     </div>
 </article>
