@@ -27,9 +27,9 @@ namespace SistemaHotel.Controllers
         {
             ReservaModel reservaModel = new ReservaModel(connectionString);
             List<Habitacion> habitacionesDisponibles = reservaModel.consultarDisponibilidad(tipoHabitacion);
-            if (habitacionesDisponibles.Count > 0)
-                return RedirectToAction("Reserva", "Reserva", new { idHabitacion = habitacionesDisponibles.First().Id, fechaLlegada = fechaLlegada, fechaSalida = fechaSalida });
-            else
+            //if (habitacionesDisponibles.Count > 0)
+            //    return RedirectToAction("Reserva", "Reserva", new { idHabitacion = habitacionesDisponibles.First().Id, fechaLlegada = fechaLlegada, fechaSalida = fechaSalida });
+            //else
                 return RedirectToAction("ResultadoReserva", "Reserva");
         }//Fin de la función HabitacionDisponible.
 
@@ -64,6 +64,14 @@ namespace SistemaHotel.Controllers
                 ViewBag.Message = "La reserva no pudo realizar";
             }
             return View(resultado);
+        }
+
+        public ActionResult ResultadoReserva(string nombreCliente, string correoElectronico, string numeroReserva) {
+            ViewBag["Cliente"] = nombreCliente;
+            ViewBag["Correo"] = correoElectronico;
+            ViewBag["NumeroReserva"] = numeroReserva;
+            ViewBag["Resultado"] = true;
+            return View();
         }
     }
 }
