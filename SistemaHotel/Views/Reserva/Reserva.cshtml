@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Reserva";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -14,10 +13,8 @@
                         <img class="rounded img-fluid" alt="Piscina" src="~/img/7.jpeg" style="width:250px;">
                     </div>
                     <div class="col-8 col-sm-8">
-                        <h4 class="font-italic text-center">Habitacion numero : @ViewData["numero"]</h4>
-                        <p class="font-weight-light text-justify">
-                           @ViewData["descripcion"]
-                        </p>
+                        <h4 class="font-italic text-center">Habitacion numero: @ViewData["numero"]</h4>
+                        <p class="font-weight-light text-justify">@ViewData["descripcion"]</p>
                     </div>
                 </div>
             </div>
@@ -30,6 +27,7 @@
                 <div class="row">
                     <div class="col-8 col-sm-8">
                         <form action="Reserva/Reserva"  method="post">
+                            <input type="text" id="numeroHabitacion" name="numeroHabitacion" value="@ViewData["numero"]" style="display: none;">
                             <div class="form-group">
                                 <label for="monto">Monto de su reserva: $@ViewData["tarifa"]</label>
                             </div>

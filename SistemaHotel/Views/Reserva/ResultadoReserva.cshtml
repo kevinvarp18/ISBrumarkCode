@@ -1,6 +1,4 @@
-﻿
-@{
-    ViewBag.Title = "ResultadoReserva";
+﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -8,41 +6,37 @@
     <div class="container">
         <h2 class="font-italic text-center">Reporte de Reserva</h2>
         @{
-            if (ViewBag["Resultado"])
+            if (ViewData["Resultado"].Equals("1"))
             {
                 <p>
-                    ¡En hora buena! Su reserva se ha realizado con éxito. A continuación, se le muestra la información
+                    ¡Enhorabuena! Su reserva se ha realizado con éxito. A continuación, se le muestra la información
                     de su reserva.
                 </p>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr class="table-info">
-                            <th>Cliente</th>
-                            <th>Correo Electrónico</th>
-                            <th>Número de Reserva</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table-danger">
-                            <td>@ViewBag["Cliente"]</td>
-                            <td>@ViewBag["Correo"]</td>
-                            <td>@ViewBag["NumeroReserva"]</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>
-                    Para SunSet Hotel es un gusto tenerlos en nuestras instalaciones, los esperamos.
-                </p>
-                @Html.ActionLink("Aceptar", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-success" })
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="table-info">
+                                <th>Cliente</th>
+                                <th>Correo Electrónico</th>
+                                <th>Número de Reserva</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-danger">
+                                <td>@ViewData["Cliente"]</td>
+                                <td>@ViewData["Correo"]</td>
+                                <td>@ViewData["Reserva"]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        Para SunSet Hotel es un gusto tenerlos en nuestras instalaciones, los esperamos.
+                    </p>
             }
             else
             {
-                <p>
-                    ¡Lo sentimos, esta habitación no se encuentra disponible!
-                </p>
-                @Html.ActionLink("Aceptar", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-danger" })
+                <p>¡Lo sentimos, esta habitación no se encuentra disponible!</p>
+                @*@Html.ActionLink("Volver", "HabitacionDisponible", "Resrrva", routeValues: null, htmlAttributes: new { @class = "btn btn-danger" })*@
             }
         }
-        
     </div>
 </article>

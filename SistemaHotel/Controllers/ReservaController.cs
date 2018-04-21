@@ -7,34 +7,28 @@ using System.Web;
 using System.Web.Configuration;
 using System.Web.Mvc;
 
-
-namespace SistemaHotel.Controllers
-{
-    public class ReservaController : Controller
-    {
+namespace SistemaHotel.Controllers {
+    public class ReservaController : Controller {
         String connectionString = WebConfigurationManager.ConnectionStrings["Sunset_Hotel"].ToString();
         string numeroHabitacion = "";
 
-        public ActionResult HabitacionDisponible()
-        {
+        public ActionResult HabitacionDisponible() {
             ReservaModel reservaModel = new ReservaModel(connectionString);
             List<TipoHabitacion> tiposHabitacion = reservaModel.obtenerTiposHabitacion();
             return View(tiposHabitacion);
         }//Fin de la funcion HabitacionDisponible
 
         [HttpPost]
-        public ActionResult HabitacionDisponible(DateTime fechaLlegada, DateTime fechaSalida, int tipoHabitacion)
-        {
+        public ActionResult HabitacionDisponible(DateTime fechaLlegada, DateTime fechaSalida, int tipoHabitacion) {
             ReservaModel reservaModel = new ReservaModel(connectionString);
             List<Habitacion> habitacionesDisponibles = reservaModel.consultarDisponibilidad(tipoHabitacion);
-            //if (habitacionesDisponibles.Count > 0)
-            //    return RedirectToAction("Reserva", "Reserva", new { idHabitacion = habitacionesDisponibles.First().Id, fechaLlegada = fechaLlegada, fechaSalida = fechaSalida });
-            //else
-                return RedirectToAction("ResultadoReserva", "Reserva");
+            if (habitacionesDisponibles.Count > 0)
+                return RedirectToAction("Reserva", "Reserva", new { idHabitacion = habitacionesDisponibles.First().Id, fechaLlegada = fechaLlegada, fechaSalida = fechaSalida });
+            else
+                return RedirectToAction("ResultadoReserva", "Reserva", new { nombreCliente = "", correoElectronico = "", numeroReserva = "", resultadoReserva = "2" });
         }//Fin de la función HabitacionDisponible.
 
-        public ActionResult Reserva(int idHabitacion, DateTime fechaLlegada, DateTime fechaSalida)
-        {
+        public ActionResult Reserva(int idHabitacion, DateTime fechaLlegada, DateTime fechaSalida) {
             ReservaModel reservaModel = new ReservaModel(connectionString);
             List<string> habitacion = reservaModel.obtenerDatosHabitacion(idHabitacion);
 
@@ -48,30 +42,24 @@ namespace SistemaHotel.Controllers
         }//Fin de la función Reserva.
 
         [HttpPost]
-        public ActionResult Reserva(string nombreReserva, string apellidoReserva, string correoReserva, string tarjetaReserva)
-        {
-            ReservaModel rm = new ReservaModel(connectionString);
+        public ActionResult Reserva(string nombreReserva, string apellidoReserva, string correoReserva, string tarjetaReserva, int numeroHabitacion) {
+            ReservaModel reservaModel = new ReservaModel(connectionString);
+            bool resultado = reservaModel.RealizarReserva(nombreReserva, apellidoReserva, correoReserva, tarjetaReserva, numeroHabitacion);
 
-            bool resultado = rm.RealizarReserva(nombreReserva, apellidoReserva, correoReserva, tarjetaReserva, 1);
-            //bool resultado = rm.RealizarReserva(nombreReserva,apellidoReserva,correoReserva,tarjetaReserva,int.Parse(this.numero));
+            if (resultado) {
+                return RedirectToAction("ResultadoReserva", "Reserva", new { nombreCliente = nombreReserva + " " + apellidoReserva, correoElectronico = correoReserva, numeroReserva = "abc" , resultadoReserva = "1"});
+            }else{
+                ViewBag.Message = "La reserva no se pudo realizar";
+                return View(resultado);
+            }//Fin del if.
+        }//Fin de la función Reserva.
 
-            if (resultado)
-            {
-                ViewBag.Message = "La reserva se realizó exitosamente";
-            }
-            else
-            {
-                ViewBag.Message = "La reserva no pudo realizar";
-            }
-            return View(resultado);
-        }
-
-        public ActionResult ResultadoReserva(string nombreCliente, string correoElectronico, string numeroReserva) {
-            ViewBag["Cliente"] = nombreCliente;
-            ViewBag["Correo"] = correoElectronico;
-            ViewBag["NumeroReserva"] = numeroReserva;
-            ViewBag["Resultado"] = true;
+        public ActionResult ResultadoReserva(string nombreCliente, string correoElectronico, string numeroReserva, string resultadoReserva) {
+            ViewData["Cliente"] = nombreCliente;
+            ViewData["Correo"] = correoElectronico;
+            ViewData["NumeroReserva"] = numeroReserva;
+            ViewData["Resultado"] = resultadoReserva;
             return View();
-        }
-    }
-}
+        }//Fin de la función ResultadoReserva.
+    }//Fin de la clase ReservaController.
+}//Fin del namespace.

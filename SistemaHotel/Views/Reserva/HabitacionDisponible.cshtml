@@ -6,10 +6,8 @@
 
     var listado = new List<SelectListItem>();
 
-    foreach (var item in Model)
-    {
-        SelectListItem selectItem = new SelectListItem()
-        {
+    foreach (var item in Model) {
+        SelectListItem selectItem = new SelectListItem() {
             Text = item.Descripcion,
             Value = item.Id.ToString()
         };
