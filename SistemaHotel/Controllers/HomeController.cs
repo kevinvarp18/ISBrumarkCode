@@ -15,7 +15,9 @@ namespace SistemaHotel.Controllers {
         public ActionResult Index() {
             PaginaHomeModel modelo = new PaginaHomeModel(this.connectionString);
             PagHome home = modelo.obtenerDatosIndex();
+            ViewData["id"] = home.IdPagina;
             ViewData["descripcion"] = home.DescripcionPagina;
+            ViewData["imagen"] = home.UrlImagen;
             return View();
         }
 

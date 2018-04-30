@@ -3,6 +3,10 @@ header {
     color: #fff;
 }
 
+textarea {
+  resize: none;
+}
+
 body {
     background: #212121 url(../img/fondo.jpg);
 }

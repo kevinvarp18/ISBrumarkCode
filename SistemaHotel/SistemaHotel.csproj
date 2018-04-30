@@ -197,6 +197,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="Controllers\AdminHomeController.cs" />
     <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\FacilidadesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -292,6 +293,7 @@
     <Content Include="Views\Reserva\Reserva.cshtml" />
     <Content Include="Views\Reserva\HabitacionDisponible.cshtml" />
     <Content Include="Views\Reserva\ResultadoReserva.cshtml" />
+    <Content Include="Views\AdminHome\AdminHome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
