@@ -4,6 +4,17 @@
         <br />
         <div class="row">
             <div class="col-sm-12">
+                @if (ViewBag.Message.Equals("Exitoso")){
+                    <div class="alert alert-success alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>Cambios exitosos!</strong> Los cambios se realizaron.
+                    </div>
+                }else if (ViewBag.Message.Equals("Error")){
+                    <div class="alert alert-danger alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>Error!</strong> Lo sentimos ocurrio un error.
+                    </div>
+                }
                 <h1 class="font-italic text-center">¡Bienvenidos a Sunset Hotel! </h1><br />
                 <div class="row">
                     <div class="col-4 col-sm-6">
@@ -17,6 +28,5 @@
                 </div>
             </div>
         </div>
-    </div>
-    
+    </div>    
 </article>

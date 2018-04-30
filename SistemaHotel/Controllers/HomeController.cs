@@ -18,6 +18,7 @@ namespace SistemaHotel.Controllers {
             ViewData["id"] = home.IdPagina;
             ViewData["descripcion"] = home.DescripcionPagina;
             ViewData["imagen"] = home.UrlImagen;
+            ViewBag.Message = "nada";
             return View();
         }
 

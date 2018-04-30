@@ -21,8 +21,7 @@ namespace SistemaHotel.Controllers {
             ViewData["imagen"] = home.UrlImagen;
             return View();
         }//End AdminHome()
-
-        [HttpPost]
+        
         public ActionResult CancelarCambios(){
             return RedirectToAction("Index", "Home");
         }//End AdminHome()
@@ -34,11 +33,11 @@ namespace SistemaHotel.Controllers {
             PagHome home = new PagHome(id, descripcion, "C:/Users/Dylan/Source/Repos/ISBrumarkCode/SistemaHotel/img/homeIMG.jpg");
             bool res = modelo.actualizaDatosIndex(home);
             if (res){
-                ViewBag.Message = "funca";
-                return View();
+                ViewBag.Message = "Exitoso";
+                return RedirectToAction("Index", "Home");
             }else{
-                ViewBag.Message = "Error de conecion";
-                return View(res);
+                ViewBag.Message = "Error";
+                return RedirectToAction("Index", "Home");
             }//End if-else (res)
         }//End AdminHome()
 
