@@ -6,10 +6,25 @@
 
 <article class="col-xs-12 col-sm-8 col-md-9">
 
+    @if (ViewBag.Message.Equals("Exitoso"))
+    {
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Cambios exitosos!</strong> Los cambios se realizaron.
+        </div>
+    }
+    else if (ViewBag.Message.Equals("Error"))
+    {
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Error!</strong> Lo sentimos ocurrio un error.
+        </div>
+    }
+
     <h1 class="font-italic text-center">Sobre nosotros</h1>
     <p class="font-weight-light text-justify">
-        SunSet Hotel único todo Incluido de la zona está situado al noroeste de Costa Rica, a solo 2 km del centro de la ciudad de Tamarindo, sobre una fantástica playa rodeada de una excepcional belleza y riqueza. La biodiversidad de este magnífico país al alcance de la mano.
-    </p>
+        @ViewData["descripcion"]
+   </p>
 
     <h2 class="font-weight-light">Presentación</h2>
 

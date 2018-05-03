@@ -198,18 +198,21 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="Controllers\AdminHomeController.cs" />
+    <Compile Include="Controllers\AdminSNosotrosController.cs" />
     <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\FacilidadesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReservaController.cs" />
     <Compile Include="Controllers\SobreNosotrosController.cs" />
     <Compile Include="Controllers\TarifasController.cs" />
+    <Compile Include="Domain\AdminSNosotrosPag.cs" />
     <Compile Include="Domain\Habitacion.cs" />
     <Compile Include="Domain\PagHome.cs" />
     <Compile Include="Domain\TipoHabitacion.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AdminSNosotrosModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\PaginaHomeModel.cs" />
     <Compile Include="Models\ReservaModel.cs" />
@@ -294,6 +297,7 @@
     <Content Include="Views\Reserva\HabitacionDisponible.cshtml" />
     <Content Include="Views\Reserva\ResultadoReserva.cshtml" />
     <Content Include="Views\AdminHome\AdminHome.cshtml" />
+    <Content Include="Views\AdminSNosotros\AdminSNosotros.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

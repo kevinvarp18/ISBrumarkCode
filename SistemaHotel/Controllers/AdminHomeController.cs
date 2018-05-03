@@ -29,7 +29,6 @@ namespace SistemaHotel.Controllers {
         [HttpPost]
         public ActionResult guardarCambios(int id, string descripcion, string imagen){
             PaginaHomeModel modelo = new PaginaHomeModel(this.connectionString);
-            //PagHome home = new PagHome(id,descripcion,imagen);
             PagHome home = new PagHome(id, descripcion, "C:/Users/Dylan/Source/Repos/ISBrumarkCode/SistemaHotel/img/homeIMG.jpg");
             bool res = modelo.actualizaDatosIndex(home);
             if (res){
