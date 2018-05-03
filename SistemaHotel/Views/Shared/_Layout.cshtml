@@ -38,7 +38,16 @@
                             @Html.ActionLink("Tarifas", "Tarifas", "Tarifas", routeValues: null, htmlAttributes: new { @class = "nav-link" })
                             @Html.ActionLink("Reservas en Línea", "HabitacionDisponible", "Reserva", routeValues: null, htmlAttributes: new { @class = "nav-link" })
                             @Html.ActionLink("Contáctenos", "Contacto", "Contacto", routeValues: null, htmlAttributes: new { @class = "nav-link" })
-                            @Html.ActionLink("Modificar Index", "AdminHome", "AdminHome", routeValues: null, htmlAttributes: new { @class = "nav-link" })
+                           
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                +
+                            </a>
+                            <div class="dropdown-menu">
+                                @Html.ActionLink("Modificar Home", "AdminHome", "AdminHome", routeValues: null, htmlAttributes: new { @class = "dropdown-item" })
+                                @Html.ActionLink("Modificar Sobre Nosotros", "AdminSNosotros", "AdminSNosotros", routeValues: null, htmlAttributes: new { @class = "dropdown-item" })
+                            </div>
+                        </li>
                     </div>
                 </div>
             </nav>
