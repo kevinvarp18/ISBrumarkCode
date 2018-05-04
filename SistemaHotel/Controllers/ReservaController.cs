@@ -52,20 +52,31 @@ namespace SistemaHotel.Controllers {
                 MailMessage email = new MailMessage();
                 email.To.Add(new MailAddress(correoReserva));
                 email.From = new MailAddress("sunsethotelinfo@gmail.com");
-                email.Subject = "Asunto ( " + DateTime.Now.ToString("dd / MMM / yyy hh:mm:ss") + " ) ";
-                email.Body = "Prueba";
+                email.Subject = "Reservación Comprobante( " + DateTime.Now.ToString("dd / MMM / yyy hh:mm:ss") + " ) ";
+                email.Body = "Reciba un cordial saludo "+ nombreReserva + " " +apellidoReserva +" por parte de Sunset Hotel. Le adjuntamos el  número de habitación asiganada: " + numeroHabitacion;
                 email.IsBodyHtml = true;
                 email.Priority = MailPriority.Normal;
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
-                smtp.Port = 587;
-                smtp.EnableSsl = false;
+                smtp.Port = 25;
+                smtp.EnableSsl = true;
                 smtp.UseDefaultCredentials = false;
                 smtp.Credentials = new NetworkCredential("sunsethotelinfo@gmail.com", "sunsethotel1123");
-                smtp.Send(email);
-                email.Dispose();
+                
+                try
+                {
+                    smtp.Send(email);
 
-                return RedirectToAction("ResultadoReserva", "Reserva", new { nombreCliente = nombreReserva + " " + apellidoReserva, correoElectronico = correoReserva, numeroReserva = "abc" , resultadoReserva = "1"});
+                }
+                catch (Exception except)
+                {
+                    email.Dispose();
+                }
+                
+
+            
+
+            return RedirectToAction("ResultadoReserva", "Reserva", new { nombreCliente = nombreReserva + " " + apellidoReserva, correoElectronico = correoReserva, numeroReserva = "abc" , resultadoReserva = "1"});
             }else{
                 ViewBag.Message = "La reserva no se pudo realizar";
                 return View(resultado);

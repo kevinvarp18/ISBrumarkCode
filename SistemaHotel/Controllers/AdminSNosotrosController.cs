@@ -28,17 +28,17 @@ namespace SistemaHotel.Controllers
         public ActionResult guardarCambios(int id, string descripcion, string imagen)
         {
             AdminSNosotrosModel modelo = new AdminSNosotrosModel(this.connectionString);
-            AdminSNosotrosPag home = new AdminSNosotrosPag(id, descripcion, "C:/Users/Dylan/Source/Repos/ISBrumarkCode/SistemaHotel/img/homeIMG.jpg");
+            AdminSNosotrosPag home = new AdminSNosotrosPag(6, descripcion,"");
             bool res = modelo.actualizaDatosSobreNosotro(home);
             if (res)
             {
                 ViewBag.Message = "Exitoso";
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("SobreNosotros", "SobreNosotros");
             }
             else
             {
                 ViewBag.Message = "Error";
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("SobreNosotros", "SobreNosotros");
             }//if-else
 
         }//guardarCambios

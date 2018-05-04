@@ -35,9 +35,10 @@ namespace SistemaHotel.Models
             {
                 if (int.Parse(currentRow["TN_Identificador_TSH_Pagina"].ToString()) == 6)
                 {
+                    Console.Write("Entro");
                     idPag = int.Parse(currentRow["TN_Identificador_TSH_Pagina"].ToString());
                     descripcion = currentRow["TC_Descripcion_TSH_Tipo_Habitacion"].ToString();
-                    urlImagen = currentRow["TI_Imagen_TSH_Pag_Home"].ToString();
+                    urlImagen = currentRow["TI_Imagen_TSH_SobreN_Galeria"].ToString();
                 }
                 
             }//End foreach (DataRow currentRow in dataRow) 
